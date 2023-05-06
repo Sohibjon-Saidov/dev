@@ -17,7 +17,7 @@
         app:srcCompat="@drawable/banner" />
 
     <ImageView
-        android:id="@+id/lodo"
+        android:id="@+id/lego"
         android:layout_width="118dp"
         android:layout_height="111dp"
         android:layout_marginStart="20dp"
@@ -34,7 +34,7 @@
         android:layout_marginTop="20dp"
         android:text="Devslopes"
         android:textSize="24sp"
-        app:layout_constraintStart_toEndOf="@+id/lodo"
+        app:layout_constraintStart_toEndOf="@+id/lego"
         app:layout_constraintTop_toBottomOf="@+id/banner" />
 
     <ImageView
@@ -70,7 +70,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
-        app:layout_constraintTop_toBottomOf="@+id/lodo"
+        app:layout_constraintTop_toBottomOf="@+id/lego"
         app:srcCompat="@drawable/inboxbutton" />
 
     <androidx.constraintlayout.widget.Guideline
@@ -85,7 +85,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="32dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toTopOf="@+id/imageView11"
@@ -98,7 +98,7 @@
         android:id="@+id/imageView10"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="8dp"
         android:scaleType="centerCrop"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
@@ -109,7 +109,7 @@
         android:id="@+id/imageView11"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -122,7 +122,7 @@
         android:id="@+id/imageView12"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:scaleType="centerCrop"
